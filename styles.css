@@ -1,0 +1,22 @@
+:root {
+    --primary-color: #181818;
+    --secondary-color: #FFFFFF;
+    --terciary-color: #5CC5F6;
+    --complementary-color: #757474;
+    --font-family-title: 'Archivo Black', sans-serif;
+    --font-family-product-description: 'Anton', sans-serif;
+    --font-family-text: 'Bai Jamjuree', sans-serif;
+    --font-size-title: 2.0rem;
+    --font-size-product-description: 1.8rem;
+    --font-size-text: 1.8rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
