@@ -20,3 +20,53 @@
 html {
     font-size: 62.5%;
 }
+
+/*Header*/
+.header {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 15px 10px;
+    background-color: var(--primary-color);
+}
+
+.header__logo {
+    position: absolute;
+    left: calc(50% - 11px);
+    height: auto;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.navBar__icon {
+    display: inline-block;
+    width: 20px;
+    height: 15px;
+}
+
+.navBar__icon--menu {
+    background-image: url("./assets/icons/icon-menu.svg");
+    background-repeat: no-repeat;
+}
+
+.navBar__icon--searcher {
+    background-image: url("./assets/icons/icon-searcher.svg");
+    background-repeat: no-repeat;
+}
+
+.navBar__icon--login {
+    background-image: url("./assets/icons/icon-login.svg");
+    background-repeat: no-repeat;
+}
+
+.navBar__icon--shopping-cart {
+    background-image: url("./assets/icons/icon-shopping-cart.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
