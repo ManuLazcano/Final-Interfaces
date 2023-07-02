@@ -7,7 +7,7 @@
     --font-family-product-description: 'Anton', sans-serif;
     --font-family-text: 'Bai Jamjuree', sans-serif;
     --font-size-title: 2.0rem;
-    --font-size-product-description: 1.8rem;
+    --font-size-product-description: 1.5rem;
     --font-size-text: 1.8rem;
 }
 
@@ -70,3 +70,68 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/*Main*/
+.main {
+    width: 100%;
+    height: auto;
+    background-color: var(--secondary-color);
+}
+
+/*Card*/
+.card {
+    margin: 25px 0;
+    /*text-align: center;*/
+}
+
+.card__title {
+    margin-left: 20px;
+    font-family: var(--font-family-title);
+    font-size: var(--font-size-title);
+}
+
+.card__data-container {
+    display: flex;
+    align-items: center;
+}
+
+.card__icon-arrow {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+}
+
+.card__icon-arrow--left {
+    background-image: url('./assets/icons/icon-arrow-left.svg');
+    background-repeat: no-repeat;
+}
+
+.card__icon-arrow--right {
+    background-image: url('./assets/icons/icon-arrow-right.svg');
+    background-repeat: no-repeat;
+}
+
+/*product*/
+.product {
+    position: relative;
+    margin: 20px 0;
+}
+
+.product__title {
+    position: absolute;
+    left: calc(50% - 107px);
+    top: 20px;
+    font-family: var(--font-family-product-description);
+    font-size: var(--font-size-product-description);
+    color: var(--complementary-color);
+}
+
+.product__img {
+    width: 100%;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.product__price {
+    /*position: absolute;*/
+}
+
