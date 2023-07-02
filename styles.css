@@ -80,12 +80,15 @@ html {
 
 /*Card*/
 .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 25px 0;
     /*text-align: center;*/
 }
 
 .card__title {
-    margin-left: 20px;
+    margin-left: 22px;
     font-family: var(--font-family-title);
     font-size: var(--font-size-title);
 }
@@ -111,6 +114,19 @@ html {
     background-repeat: no-repeat;
 }
 
+.card__button {
+    align-self: center;
+    width: 160px;
+    height: auto;
+    padding: 10px 20px;
+    font-family: var(--font-family-product-description);
+    font-size: var(--font-size-product-description);
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+}
+
 /*product*/
 .product {
     position: relative;
@@ -132,6 +148,16 @@ html {
 }
 
 .product__price {
-    /*position: absolute;*/
+    position: absolute;
+    left: calc(50% - 25px);
+    bottom: 25px;
+    font-family: var(--font-family-product-description);
+    font-size: var(--font-size-product-description);
+    color: var(--complementary-color);
+}
+
+.product__price::before {
+    content: '$';
+    margin-right: 3px;
 }
 
