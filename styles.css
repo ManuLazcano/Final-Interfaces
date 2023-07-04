@@ -144,11 +144,18 @@ html {
 
 .product__title {
     position: absolute;
-    left: calc(50% - 107px);
     top: 20px;
     font-family: var(--font-family-product-description);
     font-size: var(--font-size-product-description);
     color: var(--complementary-color);
+}
+
+.product__title--offer {
+    left: calc(50% - 107px);
+}
+
+.product__title--featured {
+    left: calc(50% - 46.5px);
 }
 
 .product__img {
@@ -172,6 +179,7 @@ html {
     align-items: center;
     width: 100%;
     height: 200px;
+    margin: 25px 0;
     text-align: center;
     background-color: var(--terciary-color);
 }
@@ -180,4 +188,27 @@ html {
     font-family: var(--font-family-title);
     font-size: var(--font-size-title);
     color: var(--primary-color);
+}
+
+/*Fringe brands*/
+.fringe--brands {
+    display: block;
+    text-align: start;
+}
+
+.fringe__info--brands {
+    display: inline-block;
+    margin: 20px;
+}
+
+.fringe__imgs-container {
+    /*text-align: center;*/
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fringe__img {
+    width: 75px;
+    height: 75px;
+    /*margin: 0 10px;*/
 }
