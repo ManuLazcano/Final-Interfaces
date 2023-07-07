@@ -27,6 +27,10 @@ html {
     margin-right: 3px;
 }
 
+a {
+    color: var(--secondary-color);
+}
+
 /*Header*/
 .header {
     position: relative;
@@ -172,6 +176,21 @@ html {
     color: var(--complementary-color);
 }
 
+/*Cards - Genders*/
+.card__title--genders {
+    margin-left: 10px;
+}
+
+.product--genders {
+    margin: 15px 10px;
+}
+
+.card__button--genders {
+    align-self: flex-start;
+    margin-left: 10px;
+    font-family: var(--font-family-title);
+}
+
 /*Fringe*/
 .fringe {
     display: flex; 
@@ -211,4 +230,77 @@ html {
     width: 75px;
     height: 75px;
     /*margin: 0 10px;*/
+}
+
+/*Farewell*/
+.farewell {
+    margin: 25px 10px;
+}
+
+.farewell__text {
+    font-family: var(--font-family-text);
+    font-size: var(--font-size-text);
+}
+
+/*footer*/
+.footer{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.footer__info-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+}
+
+.footer__title {
+    margin-bottom: 24px;
+    font-family: var(--font-family-title);
+    font-size: var(--font-size-title);
+}
+
+.footer__data {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-family: var(--font-family-text);
+    font-size: var(--font-size-product-description);
+}
+
+.footer__open-link {
+    display: inline-block;
+    margin-left: 5px;
+    width: 12px;
+    height: 12px;
+    background-image: url('./assets/icons/icon-link-open.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer__social-media-container {
+    margin-top: 90px;
+    margin-bottom: 8px;
+}
+
+.footer__icon-social-media {
+    width: 33px;
+    height: 33px;
+    margin-right: 5px;
+}
+
+.footer__item-info {
+    color: var(--complementary-color);
+    margin-right: 10px;
+}
+
+.footer__icon-copyright {
+    position: relative;
+    bottom: -2px;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-left: 2px;
+    background-image: url('./assets/icons/icon-copyright.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
