@@ -51,7 +51,9 @@ a {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    max-width: 900px;
     height: auto;
+    margin: 0 auto;
 }
 
 .navBar__icon {
@@ -215,6 +217,13 @@ a {
     text-align: start;
 }
 
+.fringe__brands-container {
+    width: 100%;
+    min-width: 320px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
 .fringe__info--brands {
     display: inline-block;
     margin: 20px;
@@ -234,7 +243,10 @@ a {
 
 /*Farewell*/
 .farewell {
-    margin: 25px 10px;
+    width: 100%;
+    max-width: 900px;
+    margin: 25px 0;
+    padding: 0 10px;
 }
 
 .farewell__text {
@@ -244,6 +256,7 @@ a {
 
 /*footer*/
 .footer{
+    width: 100%;
     background-color: var(--primary-color);
     color: var(--secondary-color);
 }
@@ -251,6 +264,9 @@ a {
 .footer__info-container {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
     padding: 20px 10px;
 }
 
