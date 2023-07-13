@@ -1,0 +1,12 @@
+#card2 {
+    display: flex;
+}
+
+.card__card-container {
+    display: flex;
+    gap: 20px;
+}
+
+.card__title {
+    align-self: center;
+}

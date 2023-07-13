@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 660px)">
+    <link rel="stylesheet" href="./css/desktop.css" media="(min-width: 900px)">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Bai+Jamjuree&display=swap" rel="stylesheet">
+    
+    <script src="https://kit.fontawesome.com/18b4604bfa.js" crossorigin="anonymous"></script>
     <title>SneakerZone</title>
 </head>
 <body>
@@ -26,33 +30,109 @@
     </header>
     <main class="main"> <!--Block-->
         <section class="card"> <!--Block-->
-            <article>
-                <h2 class="card__title">Productos en oferta</h2>
-                <div class="card__data-container">                    
+            <h2 class="card__title">Productos en oferta</h2>
+            <section class="card__card-container">
+                <article id="card1" class="card__data-container">
+                        <div class="product"> <!--Block-->
+                            <span class="product__title product__title--offer">Zapatiilas Nike Air Max Flyknit racer</span>
+                            <img class="product__img" src="./assets/imgs/oferta-1.png" alt="Nike Air Max Flyknit Racer">
+                            <span class="product__price icon-currency">70.000</span>
+                        </div>                    
+                </article>
+                <article id="card2" class="card__data-container">
                     <div class="product"> <!--Block-->
                         <span class="product__title product__title--offer">Zapatiilas Nike Air Max Flyknit racer</span>
                         <img class="product__img" src="./assets/imgs/oferta-1.png" alt="Nike Air Max Flyknit Racer">
                         <span class="product__price icon-currency">70.000</span>
                     </div>                    
-                </div>
-            </article>
-            <button class="card__button">Ver más productos</button>
+                </article>
+            </section>
+
+            <section class="carousel">
+                <button  class="carousel__arrow carousel__arrow--left" role="button"><i class="fa-solid fa-angle-left"></i></button>
+                <article class="carousel__main-container">
+                        <div class="carousel__item-container"> <!--Block-->
+                            <div class="carousel__item">                                
+                                <img class="carousel__img-item" src="./assets/imgs/oferta-1.png" alt="Nike Air Max Flyknit Racer">                                
+                            </div>
+                            <div class="carousel__item">                                
+                                <img class="carousel__img-item" src="./assets/imgs/oferta-1.png" alt="Nike Air Max Flyknit Racer">                                
+                            </div>
+                            <div class="carousel__item">                                
+                                <img class="carousel__img-item" src="./assets/imgs/oferta-1.png" alt="Nike Air Max Flyknit Racer">                                
+                            </div>
+                            <div class="carousel__item">                                
+                                <img class="carousel__img-item" src="./assets/imgs/oferta-1.png" alt="Nike Air Max Flyknit Racer">                                
+                            </div>
+                            <div class="carousel__item">                                
+                                <img class="carousel__img-item" src="./assets/imgs/oferta-1.png" alt="Nike Air Max Flyknit Racer">                                
+                            </div>
+                            <div class="carousel__item">                                
+                                <img class="carousel__img-item" src="./assets/imgs/oferta-1.png" alt="Nike Air Max Flyknit Racer">                                
+                            </div>
+                            <div class="carousel__item">                                
+                                <img class="carousel__img-item" src="./assets/imgs/oferta-1.png" alt="Nike Air Max Flyknit Racer">                                
+                            </div>                            
+                        </div>                    
+                </article>
+                <button  class="carousel__arrow carousel__arrow--right" role="button"><i class="fa-solid fa-angle-right"></i></button>
+            </section>
+
+            <button class="card__button" role="button">Ver más productos</button>
         </section>
         <section class="fringe"> <!--Block-->
             <span class="fringe__info">Enviós gratis a partir de <span class="icon-currency">65.000</span></span>
         </section>
         <section class="card"> <!--Block-->
-            <article>
-                <h2 class="card__title">Productos destacados</h2>
-                <div class="card__data-container">                    
+            <h2 class="card__title">Productos destacados</h2>
+            <section class="card__card-container">
+                <article id="card1" class="card__data-container">
+                        <div class="product"> <!--Block-->
+                            <span class="product__title product__title--featured">Waffle Trainer 2</span>
+                            <img class="product__img" src="./assets/imgs/destacado-1.png" alt="Waffle Trainer 2">
+                            <span class="product__price icon-currency">60.000</span>
+                        </div>                    
+                </article>
+                <article id="card2" class="card__data-container">
                     <div class="product"> <!--Block-->
-                        <span class="product__title product__title--featured">Wafke Trainer 2</span>
-                        <img class="product__img" src="./assets/imgs/destacado-1.png" alt="Wafke Trainer 2">
+                        <span class="product__title product__title--featured">Waffle Trainer 2</span>
+                        <img class="product__img" src="./assets/imgs/destacado-1.png" alt="Waffle Trainer 2">
                         <span class="product__price icon-currency">60.000</span>
                     </div>                    
-                </div>
-            </article>
-            <button class="card__button">Ver más productos</button>
+                </article>
+            </section>
+
+            <section class="carousel">
+                <button  class="carousel__arrow carousel__arrow--left" role="button"><i class="fa-solid fa-angle-left"></i></button>
+                <article class="carousel__main-container">
+                        <div class="carousel__item-container"> <!--Block-->
+                            <div class="carousel__item">                                
+                                <img class="carousel__img-item" src="./assets/imgs/oferta-1.png" alt="Nike Air Max Flyknit Racer">                                
+                            </div>
+                            <div class="carousel__item">                                
+                                <img class="carousel__img-item" src="./assets/imgs/oferta-1.png" alt="Nike Air Max Flyknit Racer">                                
+                            </div>
+                            <div class="carousel__item">                                
+                                <img class="carousel__img-item" src="./assets/imgs/oferta-1.png" alt="Nike Air Max Flyknit Racer">                                
+                            </div>
+                            <div class="carousel__item">                                
+                                <img class="carousel__img-item" src="./assets/imgs/oferta-1.png" alt="Nike Air Max Flyknit Racer">                                
+                            </div>
+                            <div class="carousel__item">                                
+                                <img class="carousel__img-item" src="./assets/imgs/oferta-1.png" alt="Nike Air Max Flyknit Racer">                                
+                            </div>
+                            <div class="carousel__item">                                
+                                <img class="carousel__img-item" src="./assets/imgs/oferta-1.png" alt="Nike Air Max Flyknit Racer">                                
+                            </div>
+                            <div class="carousel__item">                                
+                                <img class="carousel__img-item" src="./assets/imgs/oferta-1.png" alt="Nike Air Max Flyknit Racer">                                
+                            </div>
+                        </div>                    
+                </article>
+                <button  class="carousel__arrow carousel__arrow--right" role="button"><i class="fa-solid fa-angle-right"></i></button>
+            </section>
+
+            <button class="card__button" role="button">Ver más productos</button>
         </section>
         <section class="fringe fringe--brands"> <!--Block-->
             <section class="fringe__brands-container">
@@ -64,38 +144,40 @@
                 </div>
             </section>
         </section>
-        <section class="card"> <!--Block-->
-            <article>
-                <h2 class="card__title card__title--genders">Hombres</h2>
-                <div class="card__data-container">
-                    <div class="product product--genders"> <!--Block-->                        
-                        <img class="product__img" src="./assets/imgs/hombre-1.png" alt="Ropa de hombre">                        
-                    </div>                    
-                </div>
+        <section class="card__genders-container">
+            <article class="card card--genders"> <!--Block-->
+                <article>
+                    <h2 class="card__title">Hombres</h2>
+                    <div class="card__data-container">
+                        <div class="product product--genders"> <!--Block-->                        
+                            <img class="product__img" src="./assets/imgs/hombre-1.png" alt="Ropa de hombre">                        
+                        </div>                    
+                    </div>
+                </article>
+                <button class="card__button card__button--genders" role="button">Ver productos</button>
             </article>
-            <button class="card__button card__button--genders">Ver productos</button>
-        </section>
-        <section class="card"> <!--Block-->
-            <article>
-                <h2 class="card__title card__title--genders">Mujeres</h2>
-                <div class="card__data-container">
-                    <div class="product product--genders"> <!--Block-->                        
-                        <img class="product__img" src="./assets/imgs/mujer-1.png" alt="Ropa de mujer">                        
-                    </div>                    
-                </div>
+            <article class="card card--genders"> <!--Block-->
+                <article>
+                    <h2 class="card__title">Mujeres</h2>
+                    <div class="card__data-container">
+                        <div class="product product--genders"> <!--Block-->                        
+                            <img class="product__img" src="./assets/imgs/mujer-1.png" alt="Ropa de mujer">                        
+                        </div>                    
+                    </div>
+                </article>
+                <button class="card__button card__button--genders" role="button">Ver productos</button>
             </article>
-            <button class="card__button card__button--genders">Ver productos</button>
-        </section>
-        <section class="card"> <!--Block-->
-            <article>
-                <h2 class="card__title card__title--genders">Niños/as</h2>
-                <div class="card__data-container">
-                    <div class="product product--genders"> <!--Block-->                        
-                        <img class="product__img" src="./assets/imgs/childs-1.png" alt="Ropa de niños">                        
-                    </div>                    
-                </div>
+            <article class="card card--genders"> <!--Block-->
+                <article>
+                    <h2 class="card__title">Niños/as</h2>
+                    <div class="card__data-container">
+                        <div class="product product--genders"> <!--Block-->                        
+                            <img class="product__img" src="./assets/imgs/childs-1.png" alt="Ropa de niños">                        
+                        </div>                    
+                    </div>
+                </article>
+                <button class="card__button card__button--genders" role="button">Ver productos</button>
             </article>
-            <button class="card__button card__button--genders">Ver productos</button>
         </section>
         <section class="farewell"> <!--Block-->
             <p class="farewell__text">
@@ -119,5 +201,6 @@
             </div>
         </section>
     </footer>
+    <script src="./script.js"></script>
 </body>
 </html>

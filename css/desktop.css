@@ -1,0 +1,38 @@
+.card {
+    max-width: 1400px;
+}
+
+.card--genders {
+    max-width: 320px;
+}
+
+#card1,
+#card2 {
+    display: none;
+}
+
+.carousel {
+    display: block;
+}
+
+.fringe__img {
+    width: 85px;
+    height: 85px;
+}
+
+@media screen and (min-width: 1078px) {
+    .carousel__item {
+        min-width: 18.9%;
+    }
+    .card__genders-container {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .carousel__item {
+        min-width: 19.15%;
+        box-shadow: 0 0 3px rgb(0, 0, 0, 0.3)
+    }
+}
+
