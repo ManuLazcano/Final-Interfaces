@@ -98,8 +98,8 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
     margin: 25px 0;
-    /*text-align: center;*/
 }
 
 .card__title {
@@ -110,7 +110,9 @@ a {
 
 .card__data-container {
     display: flex;
+    justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .card__icon-arrow {
@@ -146,6 +148,8 @@ a {
 .product {
     position: relative;
     margin: 20px 0;
+    width: 90%;
+    min-width: 288px;
 }
 
 .product__title {
