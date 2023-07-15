@@ -67,22 +67,22 @@ a {
 }
 
 .navBar__icon--menu {
-    background-image: url("./assets/icons/icon-menu.svg");
+    background-image: url("../assets/icons/icon-menu.svg");
     background-repeat: no-repeat;
 }
 
 .navBar__icon--searcher {
-    background-image: url("./assets/icons/icon-searcher.svg");
+    background-image: url("../assets/icons/icon-searcher.svg");
     background-repeat: no-repeat;
 }
 
 .navBar__icon--login {
-    background-image: url("./assets/icons/icon-login.svg");
+    background-image: url("../assets/icons/icon-login.svg");
     background-repeat: no-repeat;
 }
 
 .navBar__icon--shopping-cart {
-    background-image: url("./assets/icons/icon-shopping-cart.svg");
+    background-image: url("../assets/icons/icon-shopping-cart.svg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -180,6 +180,7 @@ a {
 
 .product__img {
     width: 100%;
+    height: 372px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
@@ -302,7 +303,7 @@ a {
     margin-left: 5px;
     width: 12px;
     height: 12px;
-    background-image: url('./assets/icons/icon-link-open.svg');
+    background-image: url('../assets/icons/icon-link-open.svg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -330,16 +331,10 @@ a {
     width: 10px;
     height: 10px;
     margin-left: 2px;
-    background-image: url('./assets/icons/icon-copyright.svg');
+    background-image: url('../assets/icons/icon-copyright.svg');
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-
-
-
-
-
 
 /* ----- ----- ----- Carousel ----- ----- -----*/
 .carousel {
@@ -404,4 +399,130 @@ a {
 .carousel__img-item {
     width: 100%;
     vertical-align: top;
+}
+
+/* ----- ----- ----- Shopping cart ----- ----- -----*/
+.shopping-cart {
+    align-self: flex-end;
+    width: 100%;
+    max-width: 900px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 25px 20px;
+    background-color: var(--secondary-color);
+}
+
+.shopping-cart__title-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.shopping-cart__arrow-left {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url('../assets/icons/icon-arrow-left.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.shopping-cart__title {
+    font-family: var(--font-family-text);
+    font-size: var(--font-size-text);
+}
+
+.shopping-cart__item-container {
+    width: 100%;
+    height: auto;
+    margin: 25px 0;
+}
+
+.shopping-cart__item {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.shopping-cart__item--one-container {
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.shopping-cart__item--two-container {
+    display: flex;
+    width: 30%;
+    align-items: center;
+    justify-content: end;
+}
+
+.shopping-cart__img-item {
+    width: 85px;
+    height: 85px;
+    border-radius: 20px;
+    border: 1px solid var(--complementary-color);
+}
+
+.shopping-cart__name-item { 
+    margin-left: 10px;
+    margin-right: 30px;
+    font-family: var(--font-family-product-description);
+    font-size: 1.5rem;
+    color: var(--complementary-color);
+}
+
+.shopping-cart__price-item {
+    margin-right: 10px;
+    font-family: var(--font-family-product-description);
+    font-size: var(--font-size-product-description);
+}
+
+.shopping-cart__price-item::before {
+    content: "$";
+    margin-right: 2px;
+}
+
+.shopping-cart__item-icon-delete {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-image: url('../assets/icons/icon-close.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.shopping-cart__total-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px 13px;
+    background: rgba(117, 116, 116, 0.12);
+}
+
+.shopping-cart__total {
+    font-family: var(--font-family-title);
+    font-size: var(--font-size-product-description);
+}
+
+.shopping-cart__total-price {
+    font-family: var(--font-family-product-description);
+    font-size: var(--font-size-product-description);
+}
+
+.shopping-cart__total-price::before {
+    content: "$";
+    margin-right: 2px;
+}
+
+.shopping-cart__button {
+    width: 100%;
+    padding: 15px 40px;
+    margin-top: 25px;
+    font-size: var(--font-size-title);
+    color: var(--secondary-color);
+    font-weight: bold;
+    background-color: var(--primary-color);
 }
